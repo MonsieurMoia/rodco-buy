@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
 </head>
-<body>
+<body class="container">
 	<div class="row">
 		<nav class="navbar navbar-default col-md-12 col-sm-12" role="navigation">
 			<div class="navbar-header col-md-4 col-sm-4">
@@ -30,7 +30,7 @@
 	</div>
 
 	<div class="row">
-		<header class="col-md-12 text-center">
+		<header class="col-md-12 col-sm-12 text-center">
 			<div class="row">
 				<h2>SELECCIONE LOS <span class="text-primary">PRODUCTOS</span> QUE DESEA.</h2>
 			</div>
@@ -68,12 +68,15 @@
 	<div class="row">
 		<section class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
 
-			<div class="col-md-8">
+			<div class="col-md-8 col-sm-12">
+				<div class="row">
+					<div class="col-sm-12">
+						<button class="btn disabled btn-block text-muted">Confirmar <span class="glyphicon glyphicon-ok"></span></button>
+					</div>
+				</div>
 
 				<div class="row">
 					<article class="product col-md-12">
-						
-						<div class="col-md-12">
 							<a href="" class="btn btn-default btn-block">
 								<h4 class="col-md-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
 								<h4 class="col-md-12"> 
@@ -144,20 +147,94 @@
 	</div>
 
 	<div class="row">
-		<nav class="navbar navbar-fixed-bottom" role="navigation">
-			<ul class="nav navbar-nav pull-right">
-				<li>
-					<button href="#" id="tool" class="btn btn-primary btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="" data-original-title="" title="">Productos Seleccionados <span class="glyphicon glyphicon-shopping-cart"></span></button>
-				</li>
-			</ul>
-		</nav><!-- products navbar-->
-
+		<div class="col-sm-12">
+			<nav class="navbar navbar-fixed-bottom" role="navigation">
+				<ul class="nav navbar-nav pull-right">
+					<li>
+						<button href="#" id="tool" class="btn btn-primary btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="" data-original-title="" title="">Productos Seleccionados <span class="glyphicon glyphicon-shopping-cart"></span></button>
+					</li>
+				</ul>
+			</nav><!-- products navbar-->
+		</div>
 		<div class="selected-products-list hidden">
-			<ul class="btn-group text-center">
-				<li class="btn btn-default btn-block">Item 1</li>
-				<li class="btn btn-default btn-block">Item 2</li>
-				<li class="btn btn-default btn-block">Item 3</li>
-			</ul>
+			<section class="tablet-added-products col-sm-12 popover-top">
+				<div class="row">
+					<label for="" class="col-sm-2">TOTAL</label>
+					<h3 class="col-sm-10 text-center">&#8353; <span class="text-primary">12.000.085,00 </span></h3>
+				</div>
+				<br>
+				<section class="popover-content">
+					<div class="row">
+						<label for="" class="col-sm-4">Cant.</label>
+						<label for="" class="col-sm-8">Productos</label>
+					</div>
+	
+					<div class="row">
+						<form role="form" class="col-sm-4">
+							<div class="form-group">
+							  <input type="text" class="form-control input-lg text-center" value="4">
+							</div>
+						</form>
+						<a href="" class="btn btn-default col-sm-8">
+							<h3 class="col-sm-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
+							<h4 class="col-sm-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
+						</a>
+					</div><!-- Un Producto Agregado -->
+					<br>
+					<div class="row">
+						<form role="form" class="col-sm-4">
+							<div class="form-group">
+							  <input type="text" class="form-control input-lg text-center" value="4">
+							</div>
+						</form>
+						<a href="" class="btn btn-default col-sm-8">
+							<h3 class="col-sm-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
+							<h4 class="col-sm-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
+						</a>
+					</div><!-- Un Producto Agregado -->
+					<br>
+					<div class="row">
+						<form role="form" class="col-sm-4">
+							<div class="form-group">
+							  <input type="text" class="form-control input-lg text-center" value="4">
+							</div>
+						</form>
+						<a href="" class="btn btn-default col-sm-8">
+							<h3 class="col-sm-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
+							<h4 class="col-sm-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
+						</a>
+					</div><!-- Un Producto Agregado -->
+					<br>
+					<div class="row">
+						<form role="form" class="col-sm-4">
+							<div class="form-group">
+							  <input type="text" class="form-control input-lg text-center" value="4">
+							</div>
+						</form>
+						<a href="" class="btn btn-default col-sm-8">
+							<h3 class="col-sm-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
+							<h4 class="col-sm-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
+						</a>
+					</div><!-- Un Producto Agregado -->
+					<br>
+					<div class="row">
+						<form role="form" class="col-sm-4">
+							<div class="form-group">
+							  <input type="text" class="form-control input-lg text-center" value="4">
+							</div>
+						</form>
+						<a href="" class="btn btn-default col-sm-8">
+							<h3 class="col-sm-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
+							<h4 class="col-sm-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
+						</a>
+					</div><!-- Un Producto Agregado -->
+					<br>
+					<div class="row">
+						<a href="su-orden-tablet.php" class="btn btn-lg btn-block btn-success">Confirmar <span class="glyphicon glyphicon-ok"></span></a>
+					</div>
+					
+				</section>	 
+			</section>
 		</div><!-- tablet-selected-products-popover -->
 	</div><!-- row -->
 
