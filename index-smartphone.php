@@ -10,7 +10,7 @@
 	<div class="row">
 		<nav class="navbar navbar-default col-lg-12" role="navigation">
 			<div class="navbar-header col-lg-4">
-  				<a class="navbar-brand" href="#">RODCO Compras for Tablet</a>
+  				<a class="navbar-brand" href="#">RODCO Compras</a>
   			</div>
 			<form class="navbar-form navbar-right form-inline col-lg-8" role="search">
 				<div class="form-group col-lg-6">

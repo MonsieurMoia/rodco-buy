@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#tool").popover({html:!0,content:function(){return $(".selected-products-list").html()}})});

@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>RODCO Compras</title>
+	<title>TABLET RODCO Compras</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<div class="row">
-		<nav class="navbar navbar-default col-lg-12" role="navigation">
-			<div class="navbar-header col-lg-4">
-  				<a class="navbar-brand" href="#">RODCO Compras for Tablet</a>
+		<nav class="navbar navbar-default col-md-12 col-sm-12" role="navigation">
+			<div class="navbar-header col-md-4 col-sm-4">
+  				<a class="navbar-brand" href="#">RODCO Mayorista</a>
   			</div>
-			<form class="navbar-form navbar-right form-inline col-lg-8" role="search">
-				<div class="form-group col-lg-6">
-					<label for="" class="col-lg-4 text-right"><span class="glyphicon glyphicon-earphone"></span> Tel</label>
-					<div class="col-lg-8">
+			<form class="navbar-form navbar-right form-inline col-md-8 col-sm-8" role="search">
+				<div class="form-group col-md-6 col-sm-6">
+					<label for="" class=" text-right"><span class="glyphicon glyphicon-earphone"></span> Tel</label>
+					<div class="">
 						<input type="text" class="form-control input-lg" placeholder="0000-00-00">
 					</div>
 				</div>
-				<div class="form-group col-lg-6">
-					<label for="" class="col-lg-4 text-right"><span class="glyphicon glyphicon-phone"></span> Pin</label>
-					<div class="col-lg-8">
+				<div class="form-group col-md-6 col-sm-6">
+					<label for="" class="text-right"><span class="glyphicon glyphicon-phone"></span> Pin</label>
+					<div class="">
 						<input type="text" class="form-control input-lg" placeholder="Ej: 4367">
 					</div>
 				</div>
@@ -30,21 +30,21 @@
 	</div>
 
 	<div class="row">
-		<header class="col-lg-12 text-center">
+		<header class="col-md-12 text-center">
 			<div class="row">
-				<h2>SELECCIONE LOS <span class="primary">PRODUCTOS</span> QUE DESEA.</h2>
+				<h2>SELECCIONE LOS <span class="text-primary">PRODUCTOS</span> QUE DESEA.</h2>
 			</div>
 			<div class="row page-header">
-				<form class="form-inline col-lg-12" role="search">
-					<div class="form-group col-lg-4 col-lg-offset-2">
-						<label class="col-lg-3">Buscar</label>
-						<div class="col-lg-9">
+				<form class="form-inline col-md-12 col-sm-12" role="search">
+					<div class="form-group col-md-4 col-md-offset-2 col-sm-6">
+						<label class="col-md-3 col-sm-3">Buscar</label>
+						<div class="col-md-9 col-sm-9">
     						<input type="text" class="form-control input-lg" name="" placeholder="Nombre">
     					</div>
 					</div>
-					<div class="form-group col-lg-4">
-						<label class="col-lg-3">Dpto</label>
-						<div class="btn-group col-lg-9">
+					<div class="form-group col-md-4 col-sm-6">
+						<label class="col-md-3 col-sm-3">Dpto</label>
+						<div class="btn-group col-md-9 col-sm-9">
 						  <button type="button" class="btn btn-default btn-lg btn-block dropdown-toggle" data-toggle="dropdown">
 						    TODOS <span class="caret"></span>
 						  </button>
@@ -66,24 +66,17 @@
 	</div>	
 
 	<div class="row">
-		<section class="col-lg-10 col-lg-offset-1">
+		<section class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
 
-			<div class="col-lg-8">
+			<div class="col-md-8">
 
 				<div class="row">
-					<article class="product col-lg-12">
-						<!-- <div class="col-lg-2">
-							<label for="" class="pull-right">Cant.</label>
-							<form role="form">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg" value="17">
-								</div>
-							</form>
-						</div> -->
-						<div class="col-lg-12">
+					<article class="product col-md-12">
+						
+						<div class="col-md-12">
 							<a href="" class="btn btn-default btn-block">
-								<h4 class="col-lg-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
-								<h4 class="col-lg-12"> 
+								<h4 class="col-md-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
+								<h4 class="col-md-12"> 
 									<span class="pull-left">Precio:</span>
 									<span class="text-primary">Disponibles:67</span>
 									<span class="pull-right">Descuento:3%</span>
@@ -101,19 +94,12 @@
 				<br>
 
 				<div class="row">
-					<article class="product col-lg-12">
-						<!-- <div class="col-lg-2">
-							<label for="" class="pull-right">Cant.</label>
-							<form role="form">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg" value="17">
-								</div>
-							</form>
-						</div> -->
-						<div class="col-lg-12">
+					<article class="product col-md-12">
+						
+						<div class="col-md-12">
 							<a href="" class="btn btn-default btn-block">
-								<h4 class="col-lg-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
-								<h4 class="col-lg-12"> 
+								<h4 class="col-md-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
+								<h4 class="col-md-12"> 
 									<span class="pull-left">Precio:</span>
 									<span class="text-primary">Disponibles:90</span>
 									<span class="pull-right">Descuento:3%</span>
@@ -131,19 +117,12 @@
 				<br>
 
 				<div class="row">
-					<article class="product col-lg-12">
-						<!-- <div class="col-lg-2">
-							<label for="" class="pull-right">Cant.</label>
-							<form role="form">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg" value="17">
-								</div>
-							</form>
-						</div> -->
-						<div class="col-lg-12">
+					<article class="product col-md-12">
+						
+						<div class="col-md-12">
 							<a href="" class="btn btn-default btn-block">
-								<h4 class="col-lg-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
-								<h4 class="col-lg-12"> 
+								<h4 class="col-md-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
+								<h4 class="col-md-12"> 
 									<span class="pull-left">Precio:</span>
 									<span class="text-danger">Disponibles:2</span>
 									<span class="pull-right">Descuento:3%</span>
@@ -158,143 +137,29 @@
 					</article><!-- Un Producto -->
 				</div>
 				
-				<br>
-
-				<div class="row">
-					<article class="product col-lg-12">
-						<!-- <div class="col-lg-2">
-							<label for="" class="pull-right">Cant.</label>
-							<form role="form">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg" value="17">
-								</div>
-							</form>
-						</div> -->
-						<div class="col-lg-12">
-							<a href="" class="btn btn-default btn-block">
-								<h4 class="col-lg-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
-								<h4 class="col-lg-12"> 
-									<span class="pull-left">Precio:</span>
-									<span class="text-danger">Disponibles:13</span>
-									<span class="pull-right">Descuento:3%</span>
-								</h4>
-							</a>
-							<div class="progress">
-							  <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100" style="width: 13%">
-							    <span class="sr-only">13% Complete</span>
-							  </div>
-							</div>
-						</div>
-					</article><!-- Un Producto -->
-				</div>
-
-				<br>
-
-				<div class="row">
-					<article class="product col-lg-12">
-						<div class="col-lg-2">
-							<div class="text-right">
-								<h4>Cant.</h4>
-							</div>
-							<form role="form">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg input-block text-center" value="17">
-								</div>
-							</form>
-						</div>
-						<div class="col-lg-10">
-							<a href="" class="btn btn-default btn-block active">
-								<h4 class="col-lg-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
-								<h4 class="col-lg-12"> 
-									<span class="pull-left">Precio:</span>
-									<span class="text-primary">Disponibles:45</span>
-									<span class="pull-right">Descuento:3%</span>
-								</h4>
-							</a>
-							<div class="progress">
-							  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-							    <span class="sr-only">45% Complete</span>
-							  </div>
-							</div>
-						</div>
-					</article><!-- Un Producto -->
-				</div>
-
 			</div><!-- Lista de Productos -->
 
 			
-			<div class="col-lg-4">
-				<section class="added products">
-					<h3 class="text-primary">Productos Agregados <span class="pull-right">4</span><span class="glyphicon glyphicon-shopping-cart pull-right"></span></h3>
-					<br>
-					<div class="row">
-						<label for="" class="col-lg-12">TOTAL</label>
-						<h4 class="col-lg-7">C: 3.085,00</h4>
-						<button class="btn btn-success btn-lg col-lg-5">Confirmar <span class="glyphicon glyphicon-ok"></span></button>
-					</div>
-
-					<br>
-
-					<div class="row">
-						<label for="" class="col-lg-3">Cant.</label>
-						<label for="" class="col-lg-9">Productos</label>
-					</div>
-
-					<div class="">
-
-						<div class="row">
-							<form role="form" class="col-lg-3">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg text-center" value="4">
-								</div>
-							</form>
-							<a href="" class="btn btn-default col-lg-9">
-								<h3 class="col-lg-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
-								<h4 class="col-lg-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
-							</a>
-						</div><!-- Un Producto Agregado -->
-						<br>
-						<div class="row">
-							<form role="form" class="col-lg-3">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg text-center" value="4">
-								</div>
-							</form>
-							<a href="" class="btn btn-default col-lg-9">
-								<h3 class="col-lg-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
-								<h4 class="col-lg-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
-							</a>
-						</div><!-- Un Producto Agregado -->
-						<br>
-						<div class="row">
-							<form role="form" class="col-lg-3">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg text-center" value="4">
-								</div>
-							</form>
-							<a href="" class="btn btn-default col-lg-9">
-								<h3 class="col-lg-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
-								<h4 class="col-lg-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
-							</a>
-						</div><!-- Un Producto Agregado -->
-						<br>
-						<div class="row">
-							<form role="form" class="col-lg-3">
-								<div class="form-group">
-								  <input type="text" class="form-control input-lg text-center" value="4">
-								</div>
-							</form>
-							<a href="" class="btn btn-default col-lg-9">
-								<h3 class="col-lg-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
-								<h4 class="col-lg-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
-							</a>
-						</div><!-- Un Producto Agregado -->
-
-					</div><!-- Lista de Productos Agregados -->
-				</section><!-- SideBar Productos Agregados -->
-			</div><!-- Columna -->
 		</section><!-- Contene	dor de Lista de Productos y Productos Agregados -->
 	</div>
+
+	<div class="row">
+		<nav class="navbar navbar-fixed-bottom" role="navigation">
+			<ul class="nav navbar-nav pull-right">
+				<li>
+					<button href="#" id="tool" class="btn btn-primary btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="" data-original-title="" title="">Productos Seleccionados <span class="glyphicon glyphicon-shopping-cart"></span></button>
+				</li>
+			</ul>
+		</nav><!-- products navbar-->
+
+		<div class="selected-products-list hidden">
+			<ul class="btn-group text-center">
+				<li class="btn btn-default btn-block">Item 1</li>
+				<li class="btn btn-default btn-block">Item 2</li>
+				<li class="btn btn-default btn-block">Item 3</li>
+			</ul>
+		</div><!-- tablet-selected-products-popover -->
+	</div><!-- row -->
 
 	<script src="_/js/bootstrap.js"></script>
 	<script src="_/js/myscript.js"></script>
