@@ -45,35 +45,138 @@
     				</button>
     			</span>
     			<span class="input-group-btn">
-    				<button type="button" id="tool" class="btn btn-default btn-lg pull-left" data-container="body" data-toggle="popover" data-placement="bottom" data-content="" data-original-title="" title="">
+    				<button class="btn btn-default btn-lg pull-left" data-toggle="modal" data-target="#selected-products-modal">
     					<span class="glyphicon glyphicon-shopping-cart text-success"></span>
-    				</button>
-    				
+					</button><!-- Button Trigger Modal -->
     			</span>
     		</div><!-- Input group -->
   		</form><!-- Search form -->
 	</div><!-- Row -->
+	
+	<!-- Selected Products Modal -->
+	<div class="modal fade" id="selected-products-modal" tabindex="-1" role="dialog" aria-labelledby="selected-products-modal" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
 
-	<div class="selected-products-list hidden">
-			<section class="tablet-added-products col-xs-12 popover-top">
-				<div class="popover-content">	
-					
-					<div class="row">
-						<form role="form" class="col-xs-4">
-							<div class="form-group">
-							  <input type="number" class="form-control input-lg text-center" value="4">
-							</div>
-						</form>
-						<a href="" class="btn btn-default col-xs-8">
-							<h3 class="col-xs-2"><span class="glyphicon glyphicon-remove-circle text-danger"></span></h3>
-							<h4 class="col-xs-10 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>	
-						</a>
-					</div><!-- Un Producto Agregado -->
-					
+	      <div class="modal-header">
+	        <button type="button" class="btn btn-lg close " data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h2 class="text-center text-success"><span class="glyphicon glyphicon-shopping-cart"></span><span>12</span></h2>
+	        <h3 class="modal-title text-center">Productos Agregados</h3>
+	      </div><!-- Modal Header  -->
+
+	      <div class="modal-body">
+	        <div class="row">
+				<article class="product col-xs-12 ">
+					<a href="" class="btn btn-default btn-block">
+						<h4 class="col-xs-12 text-left">CABLE CONDUSAL THHN UL #6 BLANCO 100m</h4>
+						<h4 class="col-xs-12 text-left"> 
+							<small class="">Precio: &#8353;860.00</small>&nbsp;
+							<small class="text-primary">Disponibles:1,100</small>
+						</h4>
+					</a>
+					<div class="progress">
+					  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+					  </div>
+					</div>
+					<form class="form-inline" role="form">
+						<div class="input-group">
+							<span class="input-group-btn">
+    							<button class="btn btn-default btn-lg pull-left ">
+    								<span class="text-success">Cant.</span>
+    							</button>
+    						</span>
+    						<input type="number" class="form-control input-lg" name="" value="5500">
+    					</div><!-- Input group -->
+  					</form><!-- Search form -->
+				</article><!-- Un Producto -->
+			</div>
+			<br>
+			<div class="row">
+				<article class="product col-xs-12 ">
+					<a href="" class="btn btn-default btn-block">
+						<h4 class="col-xs-12 text-left">CABLE CONDUSAL THHN UL #6 BLANCO 100m</h4>
+						<h4 class="col-xs-12 text-left"> 
+							<small class="">Precio: &#8353;860.00</small>&nbsp;
+							<small class="text-primary">Disponibles:1,100</small>
+						</h4>
+					</a>
+					<div class="progress">
+					  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+					  </div>
+					</div>
+					<form class="form-inline" role="form">
+						<div class="input-group">
+							<span class="input-group-btn">
+    							<button class="btn btn-default btn-lg pull-left ">
+    								<span class="text-success">Cant.</span>
+    							</button>
+    						</span>
+    						<input type="number" class="form-control input-lg" name="" value="5500">
+    					</div><!-- Input group -->
+  					</form><!-- Search form -->
+				</article><!-- Un Producto -->
+			</div>
+			<br>
+			<div class="row">
+				<article class="product col-xs-12 ">
+					<a href="" class="btn btn-default btn-block">
+						<h4 class="col-xs-12 text-left">CABLE CONDUSAL THHN UL #6 BLANCO 100m</h4>
+						<h4 class="col-xs-12 text-left"> 
+							<small class="">Precio: &#8353;860.00</small>&nbsp;
+							<small class="text-primary">Disponibles:1,100</small>
+						</h4>
+					</a>
+					<div class="progress">
+					  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+					  </div>
+					</div>
+					<form class="form-inline" role="form">
+						<div class="input-group">
+							<span class="input-group-btn">
+    							<button class="btn btn-default btn-lg pull-left ">
+    								<span class="text-success">Cant.</span>
+    							</button>
+    						</span>
+    						<input type="number" class="form-control input-lg" name="" value="5500">
+    					</div><!-- Input group -->
+  					</form><!-- Search form -->
+				</article><!-- Un Producto -->
+			</div>
+	      </div><!-- Modal-Body -->
+
+	      <div class="modal-footer">
+	        <a href="su-orden-smartphone.html" type="button" class="btn btn-success btn-lg btn-block">Confirmar Total C230,800.00 <span class="glyphicon glyphicon-ok"></span></a>
+	      </div><!-- Modal Footer -->
+
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- <div class="selected-products-list hidden">
+		<section class="tablet-added-products">
+				<div class="row">
+					<label for="" class="col-xs-2">TOTAL</label>
+					<h3 class="col-xs-10 text-center">&#8353; <span class="text-primary">12.000.085,00 </span></h3>
 				</div>
-			</section>
-		</div><!-- tablet-selected-products-popover -->
-
+				<div class="row">
+					<article class="product col-xs-12">
+							<a href="" class="btn btn-default btn-block">
+								<h4 class="col-xs-12 text-left">CABLE CONDUSAL THHN UL #12 VERDE 100m</h4>
+								<h4 class="col-xs-12 text-left"> 
+									<small class="">Precio: &#8353;205.00</small>&nbsp;
+									<small class="text-primary">Disponibles:600</small>
+								</h4>
+							</a>
+							<div class="progress">
+							  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+							  </div>
+							</div>
+					</article>
+				</div>
+				
+		</section>
+	</div> -->
+	
 	<div class="row">
 		<article class="product col-xs-10 col-xs-offset-1">
 				<a href="" class="btn btn-default btn-block">
@@ -90,115 +193,125 @@
 			</div>
 		</article><!-- Un Producto -->
 	</div>
+	<br>
 	<div class="row">
 		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block">
-					<h4 class="col-xs-12 text-left">CABLE CONDUSAL THHN UL #6 BLANCO 100m</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;860.00</small>&nbsp;
-						<small class="text-primary">Disponibles:1,100</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
-				  </div>
-				</div>
+			<a href="" class="btn btn-default btn-block">
+				<h4 class="col-xs-12 text-left">CABLE CONDUSAL THHN UL #6 BLANCO 100m</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;860.00</small>&nbsp;
+					<small class="text-primary">Disponibles:1,100</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+			  </div>
+			</div>
+			<form class="form-inline" role="form">
+				<div class="input-group">
+					<span class="input-group-btn">
+    					<button class="btn btn-default btn-lg pull-left ">
+    						<span class="text-success">Agregar</span>
+    					</button>
+    				</span>
+    				<input type="number" class="form-control input-lg" name="" placeholder="Ej: 1000 Uns">
+    			</div><!-- Input group -->
+  			</form><!-- Search form -->
+		</article><!-- Un Producto -->
+	</div>
+	<br>
+	<div class="row">
+		<article class="product col-xs-10 col-xs-offset-1">
+			<a href="" class="btn btn-default btn-block">
+				<h4 class="col-xs-12 text-left">SOLDADURA HILCO HILCHROME 308 3/32 ACERO INOXIDABLE</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;11,111.00</small>&nbsp;
+					<small class="text-primary">Disponibles:67</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+			  </div>
 			</div>
 		</article><!-- Un Producto -->
 	</div>
+	<br>
 	<div class="row">
-		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block">
-					<h4 class="col-xs-12 text-left">SOLDADURA HILCO HILCHROME 308 3/32 ACERO INOXIDABLE</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;11,111.00</small>&nbsp;
-						<small class="text-primary">Disponibles:67</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
-				  </div>
-				</div>
+		<article class="product col-xs-10 col-xs-offset-1 has-error">
+			<a href="" class="btn btn-default btn-block disabled control-label">
+				<h4 class="col-xs-12 text-left">REPUESTO PARA CUTTER ASSIST 105 10 UND.</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;304.00</small>&nbsp;
+					<small class="text-danger">Disponibles:0</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 1%"><span class="sr-only">1% Complete</span>
+			  </div>
 			</div>
 		</article><!-- Un Producto -->
 	</div>
+	<br>
 	<div class="row">
 		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block btn-disabled">
-					<h4 class="col-xs-12 text-left">REPUESTO PARA CUTTER ASSIST 105 10 UND.</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;304.00</small>&nbsp;
-						<small class="text-danger">Disponibles:0</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 1%"><span class="sr-only">1% Complete</span>
-				  </div>
-				</div>
+			<a href="" class="btn btn-default btn-block">
+				<h4 class="col-xs-12 text-left">HOJA DE SEGUETA BIMETAL 18TH MARCA BMETAL</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;321.00</small>&nbsp;
+					<small class="text-primary">Disponibles:4,078</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+			  </div>
 			</div>
 		</article><!-- Un Producto -->
 	</div>
+	<br>
 	<div class="row">
 		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block">
-					<h4 class="col-xs-12 text-left">HOJA DE SEGUETA BIMETAL 18TH MARCA BMETAL</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;321.00</small>&nbsp;
-						<small class="text-primary">Disponibles:4,078</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
-				  </div>
-				</div>
+			<a href="" class="btn btn-default btn-block">
+				<h4 class="col-xs-12 text-left">MOSQUITERO FIBRA DE VIDRIO 4 X 100 (48")</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;8,032.00</small>&nbsp;
+					<small class="text-primary">Disponibles:33</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+			  </div>
 			</div>
 		</article><!-- Un Producto -->
 	</div>
+	<br>
 	<div class="row">
 		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block">
-					<h4 class="col-xs-12 text-left">MOSQUITERO FIBRA DE VIDRIO 4 X 100 (48")</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;8,032.00</small>&nbsp;
-						<small class="text-primary">Disponibles:33</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
-				  </div>
-				</div>
+			<a href="" class="btn btn-default btn-block">
+				<h4 class="col-xs-12 text-left">GUANTES DE CUERO P/SOLDAR SE6253G PAR</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;1,705.00</small>&nbsp;
+					<small class="text-primary">Disponibles:453</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+			  </div>
 			</div>
 		</article><!-- Un Producto -->
 	</div>
+	<br>
 	<div class="row">
 		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block">
-					<h4 class="col-xs-12 text-left">GUANTES DE CUERO P/SOLDAR SE6253G PAR</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;1,705.00</small>&nbsp;
-						<small class="text-primary">Disponibles:453</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
-				  </div>
-				</div>
-			</div>
-		</article><!-- Un Producto -->
-	</div>
-	<div class="row">
-		<article class="product col-xs-10 col-xs-offset-1">
-				<a href="" class="btn btn-default btn-block">
-					<h4 class="col-xs-12 text-left">PLYWOOD (PLYCO) CORRIENTE 3.6mm 1.22x2.44</h4>
-					<h4 class="col-xs-12 text-left"> 
-						<small class="">Precio: &#8353;5,873.00</small>&nbsp;
-						<small class="text-primary">Disponibles:2,356</small>
-					</h4>
-				</a>
-				<div class="progress">
-				  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
-				  </div>
-				</div>
+			<a href="" class="btn btn-default btn-block">
+				<h4 class="col-xs-12 text-left">PLYWOOD (PLYCO) CORRIENTE 3.6mm 1.22x2.44</h4>
+				<h4 class="col-xs-12 text-left"> 
+					<small class="">Precio: &#8353;5,873.00</small>&nbsp;
+					<small class="text-primary">Disponibles:2,356</small>
+				</h4>
+			</a>
+			<div class="progress">
+			  <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%"><span class="sr-only">67% Complete</span>
+			  </div>
 			</div>
 		</article><!-- Un Producto -->
 	</div>
@@ -206,7 +319,7 @@
 	<div class="row">
 		<div class="col-xs-12">
 			<nav class="navbar navbar-fixed-bottom" role="navigation">
-				<button href="#" class="btn btn-success btn-lg btn-block">Confirmar <span class="glyphicon glyphicon-ok"></span></button>
+				<a href="su-orden-smartphone.html" class="btn btn-success btn-lg btn-block">Confirmar Total: C450,988.00 <span class="glyphicon glyphicon-ok"></span></a>
 			</nav><!-- products navbar-->
 		</div>
 	</div><!-- row -->
